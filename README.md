@@ -29,8 +29,8 @@ How do you test code? You simply add the lines to your java file (in the future,
 As such, we would recommend adding the following in main().
 
 ```java
-System.out.println("TESTING: " + daisy.flowerComment())
-System.out.println("TESTING: " + witherRose.flowerComment())
+System.out.println("TESTING: " + daisy.flowerComment());
+System.out.println("TESTING: " + witherRose.flowerComment());
 ```
 Also add your own tests!
 
