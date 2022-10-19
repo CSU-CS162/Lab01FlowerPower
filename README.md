@@ -21,10 +21,12 @@ flowerComment() // With the flower FlowerPower("wither rose", 17, "black", 6.52)
 ```
 This method does not take any input, it simply relies on the **class**'s information, so consider using the other methods like getSize().
 
+**IF YOU GET AN ERROR INVOLVING DOUBLE CONVERSION, MAKE SURE YOUR STRINGS EXACTLY MATCH THE DIRECTIONS**
+
 # Step Three: Test flowerComment()
 How do you test code? You simply add the lines to your java file (in the future, you will have test lines in separate files).
 
-As such, we would recommend adding the following just above def main().
+As such, we would recommend adding the following in main().
 
 ```java
 System.out.println("TESTING: " + daisy.flowerComment())
