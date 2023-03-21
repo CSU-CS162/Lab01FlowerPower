@@ -9,7 +9,7 @@ Answer the following questions as comments in your code:
 1. Find FlowerPower(String name, int shape, String color, double size). This is called a "class constructor" and we use it whenever we want to make things of type FlowerPower. What does it look like it's doing?
 2. What would happen if we called daisy.setName("daffodil")? Would this affect witherRose.getName()?
 3. Why do we call specifically daisy.printInfo() and daisy.getName(), but printInfo() just uses getName()?
-4. Where do our "getters" (getName(), getShape(), getSize(), getColor()) get their info, since they don't have any parameters?
+4. Where do our "getters" (getName(), getShape(), getSize(), getColor()) get the variables they return, since they don't have any parameters?
 
 # Step Two: Coding: flowerComment()
 Find the method `flowerComment()`.
